@@ -1,0 +1,37 @@
+USEFUL:
+ * Public Key: (e, n)
+ * Private Key: (d, n)
+ * Encrypted message: c
+ * Decrypted message: m
+
+Arithmetic Operation Java BigInteger Method
+
+Additions and subtractions (+, -):
+- Addition: add(BigInteger val)
+- Subtraction: subtract(BigInteger val)
+
+Multiplications and divisions (*, /):
+- Multiplication: multiply(BigInteger val)
+- Division:
+  - divide(BigInteger val)
+  - divideAndRemainder(BigInteger val)
+  - mod(BigInteger m)
+  - remainder(BigInteger val)
+
+Comparisons (<, >):
+- Compare to: compareTo(BigInteger val)
+- Maximum: max(BigInteger val)
+- Minimum: min(BigInteger val)
+
+Exponentiation and modular exponentiation:
+- Exponentiation: pow(int exponent)
+- Modular exponentiation: modPow(BigInteger exponent, BigInteger m)
+
+Greatest common divisor (GCD) and multiplicative inverse:
+- GCD: gcd(BigInteger val)
+- Multiplicative inverse: modInverse(BigInteger m)
+
+Primality testing:
+- isProbablePrime(int certainty)
+- probablePrime(int bitLength, Random rnd)
+
